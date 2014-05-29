@@ -1,0 +1,361 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+/*RESET*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+body {
+  background-color: rgb(254,226,143);
+}
+
+nav, p {
+  font-family: 'Comfortaa';
+}
+
+#menu_yellowtopbar {
+  background-color: rgb(254,226,143);
+  height: 6em;
+  width: 62%;
+  margin: 0 auto 20px;
+}
+
+.california-taco-logo img {
+  width: 100%;
+  padding-top: 25px;
+}
+
+nav {
+  padding-top: 60px;
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav ul li {
+  font-family: 'Blackout';
+  font-size: 2em;
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* MENU */
+
+#menu {
+  height: 700px;
+  background-color: floralwhite;
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  top: 5px;
+  left: 400px;
+  -moz-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+.menu_logo {
+  position: absolute;
+  top: 5px;
+  left: 100px;
+  -moz-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+#inner-menu {
+  width: 62%;
+  height: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+#menu h2 {
+  font-family: 'Comfortaa';
+  margin-bottom: 10px;
+  color: darkgreen;
+  letter-spacing: .1em;
+}
+
+.menuColOne {
+  height: 300px;
+  width: 32%;
+  float: left;
+  margin-left: 15px;
+  text-align: center;
+}
+
+#menu p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  line-height: 1.5em;
+}
+
+.menuColTwo {
+  height: 300px;
+  width: 32%;
+  float: left;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.menuColThree {
+  height: 300px;
+  width: 32%;
+  float: left;
+  margin-left: 15px;
+  text-align: center;
+}
+
+#greenbarsection {
+  width: 100%;
+}
+
+.legendary {
+  position: relative;
+  width: 100%;
+  top: 140px;
+  float: left;
+  margin-left: 25px;
+  clear: both;
+}
+
+#yum {
+  font-family: 'Blackout';
+  font-size: 8em;
+  position: absolute;
+  left: 99px;
+  top: 220px;
+  color: #FFF;
+  text-shadow: 3px 4px 8px #000;
+  -moz-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+#colorblockyellow {
+  background-color: rgb(254,226,143);
+}
+
+#colorblockyellow img {
+  max-width: 75%;
+  height: auto;  
+}
+
+.main {
+  width: 100%;
+  height: 825px;
+  margin-bottom: 50px;
+}
+
+.main-image {
+  background: url('../images/tacos.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  }
+}
+
+section {
+  width: 62%;
+  margin: 0 auto;
+  clear: both;
+}
+
+section h1 {
+  font-family: 'Blackout';
+  font-size: 5.5em;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+section p {
+  line-height: 1.8em;
+  font-size: 1.5em;
+  word-spacing: .2em;
+  margin-bottom: 50px;
+}
+
+/*GREEN BAR SECTION*/
+
+.green {
+  width: 65%;
+  margin: 0 auto;
+  clear: both;
+}
+
+.chips, .tacosalad, .enchiladas {
+  width: 374px;
+  float: left;
+  margin: 0 18px;
+  padding-top: 50px;
+}
+
+.green p {
+  line-height: 1.5em;
+  font-size: 1.2em;
+  word-spacing: .2em;
+  margin: 25px 0;
+}
+
+#greenbarsection {
+  background-color: rgb(177,171,119);
+  width: 100%;
+  height: 560px;
+  margin-bottom: 50px;
+}
+
+.colorblockyellow h1 {
+  font-family: 'Blackout-2am';
+  font-size: 6em;
+  text-align: center;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: rgb(254,226,143);
+  padding: 30px 0;
+  background-color: #999;
+  text-align: center;
+  width: 100%;
+}
+
+.address {
+  float: left;
+  width: 27%;
+  margin: 0 50px 0 0;
+  line-height: 1.5em;
+}
+
+.hours {
+  float: left;
+  width: 21%;
+  line-height: 1.5em;
+  margin: 14px 0 50px 0;
+}
+
+.hours span {
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+  font-size: 1.7em;
+  margin-bottom: 35px;
+}
+
+.hours p {
+  padding-top: 5px;
+}
+
+.socialLinks {
+  float: right;
+  width: 200px;
+}
+
+.facebook {
+  display: block;
+  margin-right: 20px;
+  width: 70px;
+  height: 70px;
+  float: left;
+  background: url('../images/sprites.svg') 0px 0px no-repeat;
+}
+  
+.facebook:hover {
+  background: url('../images/sprites.svg') 0px -75px no-repeat;
+}
+
+.twitter {
+  display: block;
+  margin-right: 20px;
+  width: 70px;
+  height: 70px;
+  float: left;
+  background: url('../images/sprites.svg') -70px 0px no-repeat;
+}
+
+.twitter:hover {
+  background: url('../images/sprites.svg') -70px -75px no-repeat;
+}
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+    
+    .legendary img {
+      width: 80%;
+      height: 80%;
+    }
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
