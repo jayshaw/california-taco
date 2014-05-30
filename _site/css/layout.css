@@ -195,49 +195,6 @@ nav a:hover {
   opacity: .8;
 }
 
-#colorblockyellow {
-  background-color: rgb(254,226,143);
-}
-
-#colorblockyellow img {
-  max-width: 75%;
-  height: auto;  
-}
-
-.main {
-  width: 100%;
-  height: 825px;
-  margin-bottom: 50px;
-}
-
-section {
-  width: 62%;
-  margin: 0 auto;
-  clear: both;
-}
-
-section h1 {
-  font-family: 'Blackout';
-  font-size: 4.5em;
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-section p {
-  line-height: 1.8em;
-  font-size: 1.5em;
-  word-spacing: .2em;
-  margin-bottom: 50px;
-}
-
-/*GREEN BAR SECTION*/
-
-.green {
-  width: 65%;
-  margin: 0 auto;
-  clear: both;
-}
-
 .chips img {
   width: 100%;
   margin-bottom: 20px;
@@ -253,38 +210,25 @@ section p {
   margin-bottom: 20px;
 }
 
-.green p {
-  line-height: 1.5em;
-  font-size: 1.2em;
-  word-spacing: .2em;
-  margin: 25px 0;
-}
-
 .green-block {
   background-color: rgb(177,171,119);
   padding: 35px 0 25px 0;
   margin-bottom: 50px;
 }
 
-.colorblockyellow h1 {
-  font-family: 'Blackout-2am';
-  font-size: 6em;
-  text-align: center;
-}
-
 /*FOOTER*/
 
 footer {
-  background-color: rgb(254,226,143);
-  padding: 30px 0;
-  text-align: center;
   width: 960px;
   margin: 0 auto;
 }
 
+footer p {
+  text-align: center;
+}
+
 .address {
   float: left;
-  width: 27%;
   margin: 0 50px 0 0;
   line-height: 1.5em;
 }
@@ -300,6 +244,7 @@ footer {
   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
   font-size: 1.7em;
   margin-bottom: 35px;
+  text-align: center;
 }
 
 .hours p {
